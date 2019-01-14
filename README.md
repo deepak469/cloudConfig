@@ -120,3 +120,22 @@ Trace the requests and log the details into a file
 Implement a feature to monitor the services 
 
 For better understanding, application flow is provided through video in the next page.
+
+
+#More
+http://localhost:1111/application/default
+
+create bootstrap properties in all microservices for the purpose of cloud config
+
+We can access the configuration files by using endpoint on the config server in any one of the below patterns:
+
+http://<config_server_host>:<port>:/<application>-<profile>.yml
+http://<config_server_host>:<port>/<application>-<profile>.properties
+
+
+
+http://localhost:5555/eureka/apps
+
+for Randomport: ${PORT:${SERVER_PORT:0}}
+
+AMQP 
