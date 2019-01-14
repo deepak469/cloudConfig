@@ -1,6 +1,9 @@
 # infytel-cloudConfig
 cloud config for spring micro services
 
+https://microservices.io/patterns/index.html
+
+
 
 Many challenges of microservices can be solved by using appropriate design patterns. We have already seen some of them in the course. The challenges can be addressed by the patterns such as:
 
