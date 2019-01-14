@@ -61,3 +61,62 @@ self-contained: This contains the executable as well as the frameworks.
 in-container: The executable, frameworks and the entire JVM is packaged in one go, using a container technology like Docker, Kubernetes, etc
 
 The best way is to go for in-container as this ensures that the development, testing, deployment environments are same for every one and it is best from Devops perspective.
+
+
+
+
+
+
+
+
+ProblemStatement:
+As part of this course, you will be developing a SIM activation portal as the final project.
+
+SIM activation portal automates the SIM activation process for the customers.
+
+While purchasing the SIM, customer has to provide customer details such as first name, last name, email, dob etc.. along with ID proof to the provider. Customer gets a starter SIM kit with SIM details.
+
+Customer can activate the SIM through the portal by providing the SIM number which is present in the starter kit along with service number (mobile number).
+
+SIM activation process involves following steps.
+
+SIM validation
+
+Show special offer
+
+Customer validation based on email and date of birth
+
+Customer details and email confirmation
+
+Update address details
+
+Customer ID proof validation
+
+Summary of the request details to proceed with SIM activation.
+
+Implementation
+ Develop a SIM activation portal by identifying and implementing required microservices for the given user stories.
+
+Download user stories document here
+
+Required UI ( developed using Bootstrap, jQuery and HTML5) is provided. Download it here
+
+You will have to implement services and test the end-to-end flow for user stories.
+
+ Include below given features
+
+Route requests through API Gateway 
+
+Provide security to REST points
+
+Implement fallback mechanism at service and gateway level
+
+Use Feign client for services interaction
+
+Use centralized configuration 
+
+Trace the requests and log the details into a file              
+
+Implement a feature to monitor the services 
+
+For better understanding, application flow is provided through video in the next page.
