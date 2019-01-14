@@ -52,7 +52,7 @@ Multiple service instances per host, Service instance per host , Service instanc
 
 
 
-#The microservices can also be packaged in the below ways:
+# The microservices can also be packaged in the below ways:
 
 container-less : The executable is a JAR or WAR but the dependent frameworks are separate. For example, it does not include Tomcat, Jboss, etc
 
@@ -69,7 +69,7 @@ The best way is to go for in-container as this ensures that the development, tes
 
 
 
-#ProblemStatement:
+# ProblemStatement:
 As part of this course, you will be developing a SIM activation portal as the final project.
 
 SIM activation portal automates the SIM activation process for the customers.
@@ -122,7 +122,7 @@ Implement a feature to monitor the services
 For better understanding, application flow is provided through video in the next page.
 
 
-#More
+# More
 http://localhost:1111/application/default
 
 create bootstrap properties in all microservices for the purpose of cloud config
