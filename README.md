@@ -46,3 +46,18 @@ Single DB, DB Per Service, API composition, Saga, CQRS
 Since each service may use different technology stack, deploying them also becomes a challenge
 
 Multiple service instances per host, Service instance per host , Service instance per Container 
+
+
+
+
+
+
+The microservices can also be packaged in the below ways:
+
+container-less : The executable is a JAR or WAR but the dependent frameworks are separate. For example, it does not include Tomcat, Jboss, etc
+
+self-contained: This contains the executable as well as the frameworks.
+
+in-container: The executable, frameworks and the entire JVM is packaged in one go, using a container technology like Docker, Kubernetes, etc
+
+The best way is to go for in-container as this ensures that the development, testing, deployment environments are same for every one and it is best from Devops perspective.
